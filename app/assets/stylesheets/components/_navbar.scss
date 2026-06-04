@@ -10,3 +10,21 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.navbar {
+  background-color: #111;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;   // THIS puts them side by side
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+
+  &:hover {
+    color: #ffcc00;
+  }
+}

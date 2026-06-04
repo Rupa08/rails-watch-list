@@ -1,0 +1,16 @@
+.banner {
+  height: 350px;        // Increase this if needed
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0 0 10px black;
+}

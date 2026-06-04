@@ -1,0 +1,22 @@
+.movie-item {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  strong {
+    font-size: 18px;
+  }
+
+  .delete-link {
+    color: red;
+    font-weight: bold;
+
+    &:hover {
+      color: darkred;
+    }
+  }
+}
