@@ -1,5 +1,7 @@
 <div class="show-container">
-  <h1><%= @list.name %></h1>
+  <div class="list-hero" style="background-image: url('<%= asset_path("360.jpg") %>');">
+    <h1><%= @list.name %></h1>
+  </div>
 
   <h2>Movies in this list</h2>
 
@@ -16,5 +18,5 @@
   </ul>
 
   <%= link_to "Add a movie", new_list_bookmark_path(@list), class: "btn btn-primary" %>
-  <%= link_to "Back to lists", lists_path, class: "btn btn-secondary" %>
+  <%= link_to "Back to lists", root_path, class: "btn btn-secondary" %>
 </div>

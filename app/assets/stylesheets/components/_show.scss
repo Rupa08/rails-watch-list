@@ -1,11 +1,12 @@
 .movie-item {
-  background: white;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
   align-items: center;
+  gap: 70px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  max-width: fit-content;
+  background-color: #f9f9f9;
 
   strong {
     font-size: 18px;

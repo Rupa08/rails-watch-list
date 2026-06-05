@@ -1,12 +1,10 @@
-<h1>All Lists</h1>
-
 <div class="banner" style="background-image: url('<%= asset_path "cinema.jpg" %>');">
   Save any kind of movies
 </div>
-
+<h1>All Lists</h1>
 <div class="lists-container">
   <% @lists.each do |list| %>
-    <div class="list-card" style="background-image: url('<%= asset_path "360.jpg" %>');">
+    <div class="list-card" style="background-image: url('<%= asset_path "classic.webp" %>');">
       <h3><%= link_to list.name, list_path(list) %></h3>
     </div>
   <% end %>
